@@ -8,29 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9B78DF60283558B1004FF5B7 /* IBDesignables_proto_framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9B78DF5F283558B1004FF5B7 /* IBDesignables_proto_framework.docc */; };
-		9B78DF66283558B1004FF5B7 /* IBDesignables_proto_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B78DF5C283558B0004FF5B7 /* IBDesignables_proto_framework.framework */; };
-		9B78DF6B283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78DF6A283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.swift */; };
 		9B78DF6C283558B1004FF5B7 /* IBDesignables_proto_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B78DF5E283558B0004FF5B7 /* IBDesignables_proto_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B78DF74283558FD004FF5B7 /* IconLabel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78DF73283558FD004FF5B7 /* IconLabel2.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9B78DF67283558B1004FF5B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B78DF1C28355822004FF5B7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B78DF5B283558B0004FF5B7;
-			remoteInfo = IBDesignables_proto_framework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9B78DF5C283558B0004FF5B7 /* IBDesignables_proto_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBDesignables_proto_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78DF5E283558B0004FF5B7 /* IBDesignables_proto_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBDesignables_proto_framework.h; sourceTree = "<group>"; };
 		9B78DF5F283558B1004FF5B7 /* IBDesignables_proto_framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IBDesignables_proto_framework.docc; sourceTree = "<group>"; };
-		9B78DF65283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignables_proto_frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B78DF6A283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignables_proto_frameworkTests.swift; sourceTree = "<group>"; };
 		9B78DF73283558FD004FF5B7 /* IconLabel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLabel2.swift; sourceTree = "<group>"; };
+		9B78DF7728355C62004FF5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,14 +28,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B78DF62283558B1004FF5B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B78DF66283558B1004FF5B7 /* IBDesignables_proto_framework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				9B78DF5D283558B0004FF5B7 /* IBDesignables_proto_framework */,
-				9B78DF69283558B1004FF5B7 /* IBDesignables_proto_frameworkTests */,
 				9B78DF2528355822004FF5B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				9B78DF5C283558B0004FF5B7 /* IBDesignables_proto_framework.framework */,
-				9B78DF65283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,18 +51,11 @@
 			isa = PBXGroup;
 			children = (
 				9B78DF5E283558B0004FF5B7 /* IBDesignables_proto_framework.h */,
+				9B78DF7728355C62004FF5B7 /* Info.plist */,
 				9B78DF5F283558B1004FF5B7 /* IBDesignables_proto_framework.docc */,
 				9B78DF73283558FD004FF5B7 /* IconLabel2.swift */,
 			);
 			path = IBDesignables_proto_framework;
-			sourceTree = "<group>";
-		};
-		9B78DF69283558B1004FF5B7 /* IBDesignables_proto_frameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B78DF6A283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.swift */,
-			);
-			path = IBDesignables_proto_frameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,24 +90,6 @@
 			productReference = 9B78DF5C283558B0004FF5B7 /* IBDesignables_proto_framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9B78DF64283558B1004FF5B7 /* IBDesignables_proto_frameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B78DF70283558B1004FF5B7 /* Build configuration list for PBXNativeTarget "IBDesignables_proto_frameworkTests" */;
-			buildPhases = (
-				9B78DF61283558B1004FF5B7 /* Sources */,
-				9B78DF62283558B1004FF5B7 /* Frameworks */,
-				9B78DF63283558B1004FF5B7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B78DF68283558B1004FF5B7 /* PBXTargetDependency */,
-			);
-			name = IBDesignables_proto_frameworkTests;
-			productName = IBDesignables_proto_frameworkTests;
-			productReference = 9B78DF65283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,9 +101,6 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					9B78DF5B283558B0004FF5B7 = {
-						CreatedOnToolsVersion = 13.4;
-					};
-					9B78DF64283558B1004FF5B7 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
@@ -170,20 +119,12 @@
 			projectRoot = "";
 			targets = (
 				9B78DF5B283558B0004FF5B7 /* IBDesignables_proto_framework */,
-				9B78DF64283558B1004FF5B7 /* IBDesignables_proto_frameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9B78DF5A283558B0004FF5B7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B78DF63283558B1004FF5B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B78DF61283558B1004FF5B7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B78DF6B283558B1004FF5B7 /* IBDesignables_proto_frameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9B78DF68283558B1004FF5B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B78DF5B283558B0004FF5B7 /* IBDesignables_proto_framework */;
-			targetProxy = 9B78DF67283558B1004FF5B7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9B78DF4C28355823004FF5B7 /* Debug */ = {
@@ -399,40 +324,6 @@
 			};
 			name = Release;
 		};
-		9B78DF71283558B1004FF5B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QPU8QS3E62;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.opentable.IBDesignables-proto-frameworkTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9B78DF72283558B1004FF5B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QPU8QS3E62;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.opentable.IBDesignables-proto-frameworkTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -450,15 +341,6 @@
 			buildConfigurations = (
 				9B78DF6E283558B1004FF5B7 /* Debug */,
 				9B78DF6F283558B1004FF5B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B78DF70283558B1004FF5B7 /* Build configuration list for PBXNativeTarget "IBDesignables_proto_frameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B78DF71283558B1004FF5B7 /* Debug */,
-				9B78DF72283558B1004FF5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
