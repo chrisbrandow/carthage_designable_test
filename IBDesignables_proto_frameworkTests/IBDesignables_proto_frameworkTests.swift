@@ -1,14 +1,14 @@
 //
-//  OTDesignables_protoTests.swift
-//  OTDesignables_protoTests
+//  IBDesignables_proto_frameworkTests.swift
+//  IBDesignables_proto_frameworkTests
 //
 //  Created by Christopher Brandow on 5/18/22.
 //
 
 import XCTest
-@testable import OTDesignables_proto
+@testable import IBDesignables_proto_framework
 
-class OTDesignables_protoTests: XCTestCase {
+class IBDesignables_proto_frameworkTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
